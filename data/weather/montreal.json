@@ -1,0 +1,33 @@
+{
+  "id": "montreal",
+  "name": "Montreal",
+  "forecast": "Cloudy",
+  "high": 8,
+  "low": 2,
+  "fiveday": [{
+    "day": "Monday",
+    "forecast": "Cloudy",
+    "high": 8,
+    "low": 2
+  }, {
+    "day": "Tuesday",
+    "forecast": "Heavy Rain",
+    "high": 11,
+    "low": 8
+  }, {
+    "day": "Wednesday",
+    "forecast": "Sunny",
+    "high": 10,
+    "low": 7
+  }, {
+    "day": "Thursday",
+    "forecast": "Sunny",
+    "high": 15,
+    "low": 10
+  }, {
+    "day": "Friday",
+    "forecast": "Partially Cloudy",
+    "high": 18,
+    "low": 13
+  }]
+}

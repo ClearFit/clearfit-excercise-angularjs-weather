@@ -1,0 +1,22 @@
+# NodeJS files
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+build
+
+node_modules
+
+### OS-X generated files
+.Trashes
+.Spotlight-V100
+.DS_Store*
+Thumbs.db

@@ -1,0 +1,79 @@
+<html>
+
+<!--
+
+Main AngularJS application view.
+
+INSTRUCTIONS
+
+Populate the list of cities and their temperatures from the
+MainController $scope.
+
+See comments embedded in the page for exact instructions.
+
+-->
+
+<head>
+  <title>Clearfit - AngularJS Exercise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script language="Javascript" src="/angular/angular.js"></script>
+  <script language="Javascript" src="/angular-route/angular-route.js"></script>
+  <script language="Javascript" src="/js/config.js"></script>
+  <script language="Javascript" src="/js/services/weather_service.js"></script>
+  <script language="Javascript" src="/js/directives/weather_directive.js"></script>
+  <script language="Javascript" src="/js/controllers/main_controller.js"></script>
+</head>
+
+<body ng-app="cfAngularExercise">
+  <h1>The Weather Site</h1>
+  <div class="container" ng-controller="MainController">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 5%">
+        <h2>Temperatures</h2>
+
+        <!-- START OF EDITS -->
+        <table>
+          <thead>
+            <tr>
+              <th>
+                City
+              </th>
+              <th>
+                High (&#176;C)
+              </th>
+              <th>
+                Low (&#176;C)
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- City record sample -->
+            <tr>
+              <td>
+                <!-- Populate city name here -->
+                <!-- BONUS: Make the city name a link to Five Day route here -->
+              </td>
+              <td>
+                <!-- Populate city high here -->
+              </td>
+              <td>
+                <!-- Populate city low here -->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- END OF EDITS -->
+
+      </div>
+
+      <div class="one-half column" style="margin-top: 5%" ng-view>
+
+      </div>
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>

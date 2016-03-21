@@ -1,0 +1,33 @@
+{
+  "id": "vancouver",
+  "name": "Vancouver",
+  "forecast": "Heavy Rain",
+  "high": 19,
+  "low": 14,
+  "fiveday": [{
+    "day": "Monday",
+    "forecast": "Heavy Rain",
+    "high": 19,
+    "low": 14
+  }, {
+    "day": "Tuesday",
+    "forecast": "Heavy Rain",
+    "high": 14,
+    "low": 10
+  }, {
+    "day": "Wednesday",
+    "forecast": "Light Rain",
+    "high": 10,
+    "low": 7
+  }, {
+    "day": "Thursday",
+    "forecast": "Rain",
+    "high": 15,
+    "low": 10
+  }, {
+    "day": "Friday",
+    "forecast": "Partially Cloudy",
+    "high": 18,
+    "low": 13
+  }]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "toronto",
+  "name": "Toronto",
+  "forecast": "Sunny",
+  "high": 15,
+  "low": 9,
+  "fiveday": [{
+    "day": "Monday",
+    "forecast": "Sunny",
+    "high": 15,
+    "low": 9
+  }, {
+    "day": "Tuesday",
+    "forecast": "Sunny",
+    "high": 18,
+    "low": 12
+  }, {
+    "day": "Wednesday",
+    "forecast": "Cloudy",
+    "high": 12,
+    "low": 4
+  }, {
+    "day": "Thursday",
+    "forecast": "Rain",
+    "high": 15,
+    "low": 10
+  }, {
+    "day": "Friday",
+    "forecast": "Partially Cloudy",
+    "high": 20,
+    "low": 17
+  }]
+}

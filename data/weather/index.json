@@ -1,0 +1,19 @@
+[{
+  "id": "montreal",
+  "name": "Montreal",
+  "forecast": "Cloudy",
+  "high": 8,
+  "low": 2
+}, {
+  "id": "toronto",
+  "name": "Toronto",
+  "forecast": "Sunny",
+  "high": 15,
+  "low": 9
+}, {
+  "id": "vancouver",
+  "name": "Vancouver",
+  "forecast": "Heavy Rain",
+  "high": 19,
+  "low": 14
+}]
